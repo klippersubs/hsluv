@@ -1,0 +1,39 @@
+{
+    "name": "@klippersubs/hsluv",
+    "version": "1.0.0",
+    "description": "HSLuv wrapper.",
+    "main": "index.js",
+    "repository": "klippersubs/hsluv",
+    "author": "Alice Klipper <alice.klipper@yandex.com> (https://vk.com/alice.klipper)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/klippersubs/hsluv",
+        "email": "alice.klipper@yandex.com"
+    },
+    "scripts": {
+        "clean": "rimraf ./index.js ./index.js.map",
+        "prebuild": "yarn run clean",
+        "build": "babel ./src/index.js --out-file ./index.js --source-maps",
+        "prepublish": "yarn run build",
+        "postpublish": "yarn run clean",
+        "lint": "eslint ./src/**/*.{js,jsx}"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-eslint": "^7.2.3",
+        "babel-preset-env": "^1.5.2",
+        "babel-preset-flow": "^6.23.0",
+        "babel-preset-stage-0": "^6.24.1",
+        "eslint": "^4.0.0",
+        "eslint-config-google": "^0.8.0",
+        "eslint-config-prettier": "^2.2.0",
+        "eslint-plugin-babel": "^4.1.1",
+        "eslint-plugin-flowtype": "^2.34.0",
+        "eslint-plugin-prettier": "^2.1.2",
+        "prettier": "^1.4.4",
+        "rimraf": "^2.6.1"
+    },
+    "dependencies": {
+        "hsluv": "^0.0.1"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "useBuiltIns": true,
+                "targets": {
+                    "node": "current"
+                }
+            }
+        ],
+        "flow",
+        "stage-0"
+    ]
+}
