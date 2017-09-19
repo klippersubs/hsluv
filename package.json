@@ -1,13 +1,13 @@
 {
     "name": "@klippersubs/hsluv",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "HSLuv wrapper.",
     "main": "index.js",
     "repository": "klippersubs/hsluv",
-    "author": "Alice Klipper <alice.klipper@yandex.com> (https://vk.com/alice.klipper)",
+    "author": "Alice Klipper <alice.klipper@yandex.com> (https://t.me/aliceklipper)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/klippersubs/hsluv",
+        "url": "klippersubs/hsluv",
         "email": "alice.klipper@yandex.com"
     },
     "scripts": {

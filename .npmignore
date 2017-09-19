@@ -6,4 +6,3 @@ src/
 .eslintignore
 .eslintrc.js
 .babelrc
-.browserslistrc
